@@ -1,0 +1,10 @@
+body{
+  background-color: #eee;
+}
+.exchange_btn {
+  margin-top: 31px !important;
+}
+.exchange_btn:hover{
+  background-color: white !important;
+  color: #0B5ED7 !important;
+}

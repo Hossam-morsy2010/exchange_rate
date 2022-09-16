@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap css files-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!--font awesome css file-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--main css file-->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>exchange rate</title>
+  </head>
+  <body>
+    <!--start main body container-->
+    <section class="container">
+      <main class="row justify-content-center mt-5">
+        <div class="col-9 bg-white rounded shadow-lg">
+          <!--start main header-->
+          <h1 class="text-center my-4">currency converter</h1>
+          <!--end main header-->
+          <div class="row justify-content-center input_row">
+            <!--start the amount input-->
+            <div class="col-md-3">
+              <label for="basic-url" class="form-label">Amount</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control my_amount"
+                  id="basic-url"
+                  aria-describedby="basic-addon3"
+                />
+              </div>
+            </div>
+            <!--end the amount input-->
+            <!--start exchange from section-->
+            <div class="col-md-3">
+              <label for="basic-url" class="form-label">From</label>
+              <select
+                class="form-select my_change_from"
+                aria-label="Default select example"
+              ></select>
+            </div>
+            <!--end exchange from section-->
+            <!--start swap button-->
+            <div class="col-md-2">
+              <div class="row justify-content-center">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary mt-4 exchange_btn rounded-5 border-secondary col-10 text-center"
+                >
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </button>
+              </div>
+            </div>
+            <!--end swap button-->
+            <!--start exchange to section-->
+            <div class="col-md-3">
+              <label for="basic-url" class="form-label">To</label>
+              <select
+                class="form-select my_change_to"
+                aria-label="Default select example"
+              ></select>
+            </div>
+            <!--end exchange to section-->
+          </div>
+          <!--start showing exchange result section-->
+          <div class="row justify-content-center">
+            <div class="col-10 mt-5">
+              <p class="my_p">1.00 US Dollar =</p>
+              <h3 class="my_h">1.000101 Euros</h3>
+            </div>
+          </div>
+          <!--end showing exchange result section-->
+          <!--start exchange rate section-->
+          <div class="row justify-content-center mb-5">
+            <div class="col-10 mt-5 row justify-content-between">
+              <p class="col-md-4 my_sec_p">Exchange Rate</p>
+              <button
+                type="button"
+                class="btn btn-primary col-md-4 fw-bold my_converter"
+              >
+                view transfer quote
+              </button>
+            </div>
+          </div>
+          <!--end exchange rate section-->
+        </div>
+      </main>
+    </section>
+    <!--end main body container-->
+    <!--bootstrap js files-->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--font awesome js files-->
+    <script src="js/all.min.js"></script>
+    <!--main js file-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
